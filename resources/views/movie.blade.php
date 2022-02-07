@@ -35,7 +35,7 @@
 					</div>
 
 					<div class="information-right">
-						<h1 class="header">Actors/Characters</h1>
+						<h2 class="header">Actors/Characters</h1>
 						@foreach ($credits as $credit)
 							<ul class="list-of-actors">
 								<li>Actor: {{$credit->name}}</li>
@@ -49,6 +49,5 @@
 		</div>
 
 	</body>
-
 
 </html>

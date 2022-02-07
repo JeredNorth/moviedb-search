@@ -68,12 +68,11 @@ class MovieDatabaseController extends Controller {
 
     $response = json_decode($clientRequest->getBody()->getContents());
 
-    for ($i=0; $i < 10; $i++) { //get the first 10 cast members
-      if(array_key_exists($i, $response->cast)) {
-        array_push($movieCredits, $response->cast[$i]);
-      }
-      else {
-        continue;
+    for ($i=0; $i < count($response->cast); $i++) { //get the first 10 cast members
+      array_push($movieCredits, $response->cast[$i]);
+
+      if($i >= 9) {
+        return $movieCredits;
       }
     }
 
