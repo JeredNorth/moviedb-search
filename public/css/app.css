@@ -1,0 +1,81 @@
+body {
+	background-color: black;
+	color: white;
+	margin: 0px;
+}
+p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*search page*/
+.movie-error {
+	background-color: #ff7586;
+  border: red solid 1px;
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  margin-top: 20px;
+  width: 275px;
+  height: 20px;
+}
+.find-header {
+  text-align: center;
+  margin: inherit;
+  margin-top: 250px;
+  margin-bottom: 20px;
+}
+
+.search-form {
+	text-align: center;
+}
+
+.search-input {
+  width: 275px;
+  height: 35px;
+  font-size: 30px;
+}
+
+/*movie page*/
+
+.back-button {
+	position: absolute;
+ 	top: 35px;
+ 	left: 35px;
+ 	width: 175px;
+ 	height: 60px;
+ 	font-size: 20px;
+ 	font-weight: 700;
+ 	cursor: pointer;
+}
+.header {
+	text-align: center;
+	margin: inherit;
+}
+.background-gradiant {
+	background-image: linear-gradient(180deg, transparent, black 60%);
+	height: 100%;
+	width: 100%;
+}
+.information-panel {
+	height: 500px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+.information-left {
+	float: left;
+	height: 100%;
+	width: 70%;
+	font-size: 20px;
+}
+.information-right {
+	float: right;
+	height: 100%;
+	width: 30%;
+	overflow: auto;
+}
+.list-of-actors {
+	list-style: none;
+}
