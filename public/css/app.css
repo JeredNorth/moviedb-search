@@ -53,6 +53,15 @@ p {
 	text-align: center;
 	margin: inherit;
 }
+.information-header {
+	text-align: center;
+	margin: inherit;
+}
+.credit-header {
+	text-align: center;
+	margin: inherit;
+	font-size: 2em;
+}
 .background-gradiant {
 	background-image: linear-gradient(180deg, transparent, black 60%);
 	height: 100%;

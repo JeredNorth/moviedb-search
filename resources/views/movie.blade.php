@@ -28,14 +28,14 @@
 				<div class="information-panel">
 
 					<div class="information-left">
-						<h1 class="header">{{$details['title']}}</h1>
+						<h1 class="information-header">{{$details['title']}}</h1>
 						<p>Runtime - {{$details['runtime_hours']}} hour, {{$details['runtime_minutes']}} minutes</p>
 						<p>Release Date - {{$details['release_date']}}</p>
 						<p>Overview - {{$details['overview']}}</p>
 					</div>
 
 					<div class="information-right">
-						<h2 class="header">Actors/Characters</h1>
+						<h2 class="credit-header">Actors/Characters</h1>
 						@foreach ($credits as $credit)
 							<ul class="list-of-actors">
 								<li>Actor: {{$credit->name}}</li>
